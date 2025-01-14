@@ -60,3 +60,15 @@ class CusLog {
 
 useage: CusLog.info('hello world')
 ```
+
+### downloadBlob 
+#### 下载blob文件
+
+```js
+import {downloadBlob} from "evil-tool"
+/**
+ * @param {Blob} blob - blob对象
+ * @param {string} filename - 文件名，需要后缀
+ */
+downloadBlob(blob, filename)
+``` 
