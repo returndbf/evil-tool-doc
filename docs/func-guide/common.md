@@ -95,7 +95,7 @@ async fetchImageAsBlob(url)
 import {excel2Csv} from "evil-tool"
 /**
  * @params {ArrayBuffer} arraybuffer - excel文件流
- * @return {any} - todo...
+ * @return {Blob} -  返回的blob对象
  * 
  */
  excel2Csv(arraybuffer)
@@ -121,7 +121,7 @@ import {excel2Csv} from "evil-tool"
   * @params {ArrayBuffer} arraybuffer - excel文件流
   * @params {string[]} omitKeys - 忽略的列名
   * @params {string} splitSymbol - 每个文本的分隔符
-  * @return {blob} - 返回的blob对象
+  * @return {Blob} - 返回的blob对象
   */
  excel2Txt(arrayBuffer,omitKeys=[],splitSymbol = ',')
  ``` 
