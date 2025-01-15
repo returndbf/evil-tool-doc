@@ -44,15 +44,15 @@ import {clearConsole} from "evil-tool"
 clearConsole()
 ```
 
-### getRandomString 
+### generateRandomString 
 #### 生成随机字符串
 ```js
-import {getRandomString} from "evil-tool"
+import {generateRandomString} from "evil-tool"
 /**
  * @param {number} length  - 随机字符串长度
  * @return {string} 返回随机字符串
  */ 
-getRandomString(length = 8)
+generateRandomString(length = 8)
 ```
 ### getType
 #### 获取变量类型
